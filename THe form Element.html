@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kirjoita omat tiedot</title>
+  </head>
+
+  <body>
+    <form action="/action form">
+      <h1>Yhteistiedot</h1>
+      <button type="button">nappula ei toimi:</button>
+      <p>
+        <label for="etunimi">Kirjoita etunimi:</label>
+        <input id="etunimi" type="text" placeholder="Etunimi" name="Etunimi" />
+      </p>
+      <p>
+        <label for="Sukunimi">Kirjoita sukunimi:</label>
+        <input
+          id="Sukunimi"
+          type="text"
+          placeholder="Sukunimi"
+          name="Sukunimi"
+        />
+      </p>
+      <p>
+        <label for="password">Kirjoita Salasana:</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="Salasana"
+          name="password"
+        />
+      </p>
+      <p>
+        <label for="number">Kirjoita ika:</label>
+        <input id="number" type="number" placeholder="ika" name="num" />
+      </p>
+      <p>
+        <label for="date">Laita syntymapaiva:</label>
+        <input id="date" type="date" name="date" />
+      </p>
+      <p>
+        <label for="submit">Paina enter:</label> <br />
+        <input
+          id="submit"
+          type="submit"
+          value="Ensimmainen nappula"
+          name="submit"
+        />
+      </p>
+      <button>toinen nappula</button>
+    </form>
+
+    <h2>hijacking Searches</h2>
+
+    <h3>Etsi Google</h3>
+
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <button>Search Google</button>
+    </form>
+
+    <h3>Etsi Youtube</h3>
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" />
+      <button>Etsi Youtube</button>
+    </form>
+
+    <h2>More inputs</h2>
+
+    <form action="/linnut">
+      <input type="checkbox" name="agree_tos" id="agree" />
+      <label for="agree"> mina hyvaksyn kaikki</label>
+      <p>
+        <label for="xs">XS:</label>
+        <input type="radio" name="koko" id="xs" value="xs" />
+
+        <label for="s">S:</label>
+        <input type="radio" name="koko" id="s" value="s" />
+
+        <label for="m">M:</label>
+        <input type="radio" name="koko" id="m" value="m" />
+      </p>
+      <p>
+        <label for="">Valitse elain</label>
+        <select name="elain" id="elain">
+          <option value="">valitse elain</option>
+          <option value="kala">Kala</option>
+          <option value="kissa">Kissa</option>
+          <option value="koira">Koira</option>
+        </select>
+      </p>
+      <button>submit</button>
+    </form>
+  </body>
+</html>
