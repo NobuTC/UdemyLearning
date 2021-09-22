@@ -1,2 +1,3 @@
 # UdemyLearning
-Learning programming
+
+Learning programming including HTML, JavaScript
