@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register For HappyLand</title>
+  </head>
+  <body>
+    <h1>Lippujen osto</h1>
+    <form action="">
+      <div>
+        <label for="etunimi">Etunimi</label>
+        <input
+          type="text"
+          id="etunimi"
+          name="etunimi"
+          placeholder="John"
+          required
+        />
+      </div>
+      <div>
+        <label for="sukunimi">Sukunimi</label>
+        <input
+          type="text"
+          id="sukunimi"
+          name="sukunimi"
+          placeholder="Doe"
+          required
+        />
+      </div>
+      <div>
+        <p>Valitse lippu:</p>
+        <input type="radio" name="lippu" id="aamulippu" value="aamulippu" />
+        <label for="aamulippu">Aamuliput</label>
+      </div>
+      <div>
+        <input type="radio" name="lippu" id="päivälippu" value="päivälippu" />
+        <label for="päivälippu">Päivälippu</label>
+      </div>
+      <div>
+        <input type="radio" name="lippu" id="yölippu" value="yölippu" />
+        <label for="yölippu">Yölippu</label>
+      </div>
+
+      <input type="radio" name="lippu" id="kokolippu" value="kokolippu" />
+      <label for="kokolippu">Kokopäivä lippu</label>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+        <label for="password">Salasana</label>
+        <input type="password" name="password" id="password" required />
+      </div>
+
+      <div>
+        <label for="ticket-quantity">Kuinka monta lippuja</label>
+        <select name="ticket-quantity" id="ticket-quantity">
+          <option value="1">1 ticket</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5+</option>
+        </select>
+      </div>
+      <button>Maksa</button>
+    </form>
+  </body>
+</html>

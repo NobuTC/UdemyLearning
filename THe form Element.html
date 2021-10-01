@@ -133,5 +133,25 @@
       <button>submit</button>
       <p>help</p>
     </form>
+
+    <h2>treeni validistions</h2>
+    <form action="/jännä">
+      <label for="eka">kirjoita eka nimi</label>
+      <input type="text" name="first" id="eka" required />
+      <p>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          minlength="5"
+          maxlength="10"
+          required
+        />
+      </p>
+      <input type="email" required />
+      <input type="url" />
+      <button>Lähetä</button>
+    </form>
   </body>
 </html>
