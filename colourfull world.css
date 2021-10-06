@@ -1,0 +1,103 @@
+h1 {
+    font-size: larger;
+    font-family: fantasy;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+body {
+    background-color: mediumpurple;
+    font-family: fantasy;
+}
+
+p {
+    color: rgb(205, 32, 46);
+    font-size: 20px;
+}
+
+img {
+    width: 200px;
+}
+
+#sala {
+    color: black;
+    background-color: wheat;
+}
+
+.main {
+    background-color: white;
+    padding-top: 23px;
+    padding-left: 40px;
+    padding-bottom: 100px;
+    padding-right: 40px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.bordered {
+    border: 5px solid black;
+}
+
+.dashed-bolder {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: coral;
+}
+
+.space {
+    height: 50px;
+}
+
+.numbertwo {
+    text-align: right;
+    font-family: monospace;
+}
+
+.koko {
+    border-style: dotted;
+    border-bottom: 1px dashed firebrick;
+    border-radius: 99px;
+    padding: 20px 20px;
+}
+
+footer a {
+    color: rgb(77, 189, 217);
+}
+
+h2+button {
+    font-size: 30px;
+    background-color: coral;
+}
+
+footer>a {
+    color: darkgreen;
+}
+
+input[type="password"] {
+    color: darksalmon;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    color: firebrick;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+button:active {
+    background-color: palegreen;
+}
+
+.space:nth-of-type(2n) {
+    background-color: rgb(0, 2, 3);
+}

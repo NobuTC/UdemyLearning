@@ -1,0 +1,18 @@
+* {
+    color: palevioletred;
+    background: rgb(89, 210, 221);
+}
+
+button {
+    font-size: 15px;
+    background-color: mediumseagreen;
+}
+
+h1, h2 {
+    color: maroon;
+}
+
+#paina {
+    background-color: mediumorchid;
+    color: oldlace;
+}
