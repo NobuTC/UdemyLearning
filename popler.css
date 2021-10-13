@@ -1,0 +1,32 @@
+div {
+    width: 250px;
+    height: 250px;
+}
+
+h1 {
+    background-color: #1d3557;
+    width: 100px;
+}
+
+#koko {
+    background-color: #457b9d;
+    border-width: 5px;
+    border-color: #1d3557;
+    border-style: double;
+    box-sizing: border-box;
+}
+
+#väri {
+    background-color: #a8dadc;
+    border-width: 3px;
+    border-color: #e63946;
+    border-style: dashed solid;
+    box-sizing: border-box;
+}
+
+#lisä {
+    background-color: #f1faee;
+    border: 4px dashed #1d3557;
+    border-radius: 10%;
+    box-sizing: border-box;
+}
