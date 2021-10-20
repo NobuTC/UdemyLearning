@@ -7,16 +7,13 @@ body, html {
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(215, 215, 216);
+}
+
 div {
     width: 250px;
     height: 250px;
-}
-
-h1 {
-    background-color: #1d3557;
-    width: 100px;
-    padding: 5px 10px;
-    margin: 10px 10px
 }
 
 #koko {
@@ -92,6 +89,10 @@ h1 {
 }
 
 #top-nav h1 {
+    background-color: #1d3557;
+    width: 100px;
+    padding: 5px 10px;
+    margin: 10px 10px;
     display: inline-block;
     color: #f1faee;
 }
@@ -118,4 +119,13 @@ footer {
     color: #f1faee;
     padding: 20px 0;
     font-size: 20px;
+}
+
+article {
+    background-color: #fff;
+    border: 1px solid #babcbe;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
 }
