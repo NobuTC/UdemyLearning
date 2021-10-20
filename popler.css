@@ -1,3 +1,12 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 div {
     width: 250px;
     height: 250px;
@@ -44,4 +53,69 @@ h1 {
     border-color: rgb(209, 209, 209);
     outline: none;
     margin-top: 10px;
+}
+
+.kuutit {
+    background-color: #457b9d;
+    border: 10px;
+    width: 100px;
+    height: 100px;
+    padding: 35px;
+    margin: 20px;
+}
+
+.dispo {
+    background-color: #a8dadc;
+    height: 50px;
+    width: 60px;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 10px;
+}
+
+.inli {
+    background-color: #e63946;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 35px;
+    margin: 20px;
+    display: inline;
+}
+
+#top-nav {
+    background-color: #1d3557;
+}
+
+#top-nav li {
+    display: inline-block;
+}
+
+#top-nav h1 {
+    display: inline-block;
+    color: #f1faee;
+}
+
+#top-nav a {
+    display: inline-block;
+    color: #f1faee;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#top-nav a:hover {
+    color: #babcbe;
+}
+
+#top-nav ul {
+    display: inline-block;
+}
+
+footer {
+    background-color: #1d3557;
+    text-align: center;
+    color: #f1faee;
+    padding: 20px 0;
+    font-size: 20px;
 }
