@@ -58,3 +58,58 @@ DAPHNE
 SHAGGY
 FRED
 */
+
+/*
+for (let i = 1; i <= 10; i++) {
+  console.log(`i is: ${i}`);
+  for (let j = 1; j <= 4; j++) {
+    console.log(`    j is: ${j}`);
+  }
+}
+*/
+
+/*
+const seatingChart = [
+  ["Kirssi", "Aapo", "Iiro"],
+  [("Mauri", "Alo", "Teissi", "Miika")],
+  ["Mara", "Suoma", "Julia", "kasto"],
+];
+
+for (let i = 0; i < seatingChart.length; i++) {
+  const row = seatingChart[i];
+  console.log(`ROW #${i + 1}`);
+  for (let j = 0; j < row.length; j++) {
+    console.log(row[j]);
+  }
+}
+*/
+
+/*
+const SECRET = "m";
+
+let guess = prompt("Enter the secret code...");
+while (guess !== SECRET) {
+  guess = prompt("Enter the secret code...");
+}
+console.log("Congrats you got it right!");
+*/
+
+/*
+let input = prompt("Hey say something!");
+while (true) {
+  input = prompt(input);
+  if (input === "stop copying me") {
+    break;
+  }
+}
+console.log("Ok you win!");
+*/
+//while on jatkuva toisto ja kun laittaa
+//if että jos kirjoittaa stop copying me ja plus break niin se pysähtyy!
+/*
+for (let i = 0; i < 1000; i++) {
+  console.log(i);
+  if (i === 100) break;
+}
+//break pysäyttää kun kirjoitat break; vaikka lisäisi aina 1000 asti
+*/
