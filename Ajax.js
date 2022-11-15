@@ -22,7 +22,7 @@ req.send();
 
 // tämä on vanha tapa tehdä nyt tehään parempi ja uusi tapa!
 
-fetch("https://swapi.dev/api/people/1/") //this return promise
+fetch("https://pokeapi.co/api/v2/pokemon/ditto") //this return promise
   .then((res) => {
     console.log("resoveldes", res);
     return res.json();
@@ -36,10 +36,10 @@ fetch("https://swapi.dev/api/people/1/") //this return promise
 
 const loadStarWarsPeoples = async () => {
   try {
-    const res = await fetch("https://swapi.dev/api/peopleadasdasf/1/");
+    const res = await fetch("https://pokeapi.co/api/v2/pokemon/ditto");
     const data = await res.json();
     console.log(data);
-    const res2 = await fetch("https://swapi.dev/api/people/1/");
+    const res2 = await fetch("https://pokeapi.co/api/v2/pokemon/ditto");
     const data2 = await res2.json();
     console.log(data2);
   } catch (e) {
