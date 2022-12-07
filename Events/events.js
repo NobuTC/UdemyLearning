@@ -29,3 +29,30 @@ document.querySelector("h1").onclick = () => {
 };
 
 // now comes alert to h1!
+
+//learning addeventlistener!
+
+const btn3 = document.querySelector("#v3");
+btn3.addEventListener("click", function () {
+  alert("CLICKED!");
+});
+
+function twist() {
+  console.log("twist");
+}
+
+function shout() {
+  console.log("shout");
+}
+
+const tasButton = document.querySelector("#tas");
+
+//tasButton.onclick = twist;
+//tasButton.onclick = shout;
+
+tasButton.addEventListener("click", twist, { once: true });
+tasButton.addEventListener("click", shout);
+//first is event and then call back example alert!
+//This is better to use, cause it shows only the first one! not the second one "shout"
+//so we need addeventlistener!
+// this {once true} only appear only once and the shout comes manyyyy maanyy time when u click it
