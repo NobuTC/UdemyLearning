@@ -56,3 +56,26 @@ tasButton.addEventListener("click", shout);
 //This is better to use, cause it shows only the first one! not the second one "shout"
 //so we need addeventlistener!
 // this {once true} only appear only once and the shout comes manyyyy maanyy time when u click it
+
+//how to seperate diff? these two??
+/*const btnHello = document.querySelector("#hello").foreach;
+btnHello.addEventListener("click", function () {
+  console.log("hello");
+});
+
+const goodbye = document.querySelector("#goodbye").forEach;
+btnHello.addEventListener("click", function () {
+  console.log("goodbye");
+});
+*/
+// how to solve:
+const btnHello = document.querySelector("#hello");
+btnHello.addEventListener("click", function () {
+  console.log("hello");
+});
+
+const btngoodbye = document.querySelector("#goodbye");
+btngoodbye.addEventListener("click", function () {
+  console.log("goodbye");
+});
+//answer: wrong const name.... ahha
